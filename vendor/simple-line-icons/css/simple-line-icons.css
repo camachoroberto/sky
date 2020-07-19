@@ -126,7 +126,7 @@
 .icon-note,
 .icon-loop,
 .icon-home,
-.icon-grid,
+.icon-cartaz,
 .icon-graph,
 .icon-microphone,
 .icon-music-tone-alt,
@@ -560,7 +560,7 @@
 .icon-home:before {
   content: "\e069";
 }
-.icon-grid:before {
+.icon-cartaz:before {
   content: "\e06a";
 }
 .icon-graph:before {
