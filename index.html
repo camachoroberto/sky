@@ -27,11 +27,44 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-light bg-light static-top">
+<nav class="navbar navbar-expand-sm navbar-light bg-company">
     <div class="container">
-        <a class="navbar-brand" href="#">Sky</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+        <div class="col-2 text-left pt-2">
+            <img class="navbar-brand" src="./img/logo.png" href="#" alt="Logo SKY" title="Logo SKY" width="88px"
+                 height="33px">
+        </div>
+        <div class="col-2 d-flex text-left p-2 pl-4 align-items-center margin-img">
+            <a>
+                <img src="./img/accessibility_1.png" alt="" width="24" height="24">
+            </a>
+            <a>
+                <img src="./img/accessibility_2.png" alt="" width="24" height="24">
+            </a>
+            <a>
+                <img src="./img/accessibility_3.png" alt="" width="24" height="24">
+            </a>
+            <a>
+                <img src="./img/accessibility_4.png" alt="" width="24" height="24">
+            </a>
+        </div>
+        <div class="col text-right">
+            <a  href="#">Entrar</a>
+        </div>
     </div>
+</nav>
+<nav>
+    <ul id="filters" class="nav row-cols-3 text-center">
+        <li class="nav-item">
+            <a type="button" class="nav-link active" data-filter=".Program">Filmes</a>
+        </li>
+        <li class="nav-item">
+            <a type="button" class="nav-link" data-filter=".Serie">Series</a>
+        </li>
+        <li class="nav-item">
+            <a type="button" class="nav-link" data-filter="*">Canais</a>
+        </li>
+
+    </ul>
 </nav>
 
 <!-- Masthead -->
@@ -51,11 +84,6 @@
 
     <h1>Isotope - filtering &amp; sorting</h1>
     <h2>Filter</h2>
-    <div id="filters" class="button-group">
-        <button class="button" data-filter=".Program">Filmes</button>
-        <button class="button" data-filter=".Serie">Series</button>
-        <button class="button" data-filter="*">Canais</button>
-    </div>
 
     <div class="grid">
 

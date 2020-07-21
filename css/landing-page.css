@@ -4,6 +4,24 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+nav.bg-company {
+  background: #f2f2fa;
+}
+
+nav ul li:hover a {
+  color: #f35c58 !important;
+  border-bottom-style: solid;
+  border-bottom-color: #f35c58 !important;
+}
+
+button img {
+  border-radius: 50% !important;
+}
+
+.margin-img a {
+  margin: 0 11px;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
