@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+.bg-light {
+  background-color: #f1f2fa !important;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 nav.bg-company {
   background: #f2f2fa;
 }
@@ -22,7 +32,19 @@ button img {
   margin: 0 11px;
 }
 
+.margin-login i {
+  margin: 0 8px;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.media-social i {
+  color: #6b6b6f;
+}
+
+.terms {
+  background: white;
 }

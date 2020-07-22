@@ -39,9 +39,11 @@ $( document ).ready(function() {
         for (const dataMovie of data[2].movies) {
             var img = dataMovie.images;
             html += '<div class="element-item actinoid metal inner-transition '+dataMovie.programType+'" data-category="'+dataMovie.programType+'">';
-            html += '<h3 class="name">'+dataMovie.title+'</h3>';
+            // html += '<h3 class="name">'+dataMovie.title+'</h3>';
             // html +=     '<img src="'+img[0].url+'" width="'+img[0].width+'" height="'+img[0].height+'">';
-            html +=     '<img src="'+img[0].url+'" width="300" height="450">';
+            html +=     '<div class="card">';
+            html +=         '<img src="'+img[0].url+'" width="245" height="368">';
+            html +=     '</div>';
             html += '</div>';
         }
 
