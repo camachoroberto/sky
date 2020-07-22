@@ -22,8 +22,7 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)",
-        "Roberto Camacho"
+        "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
@@ -47,8 +46,13 @@
         "gulp-rename": "2.0.0",
         "gulp-sass": "4.1.0",
         "merge-stream": "2.0.0"
+<<<<<<< HEAD
     },
     "engines": {
+    "npm": "6.x",
     "node": "10.x"
   }
+=======
+    }
+>>>>>>> parent of 8ac8d9e... Update package.json
 }
