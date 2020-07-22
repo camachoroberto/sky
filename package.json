@@ -49,6 +49,6 @@
         "merge-stream": "2.0.0"
     },
     "engines": {
-    "node": "10.x"
+    "npm": "6.x"
   }
 }
