@@ -22,7 +22,8 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Roberto Camacho"
     ],
     "repository": {
         "type": "git",
@@ -46,5 +47,8 @@
         "gulp-rename": "2.0.0",
         "gulp-sass": "4.1.0",
         "merge-stream": "2.0.0"
-    }
+    },
+    "engines": {
+    "node": "10.x"
+  }
 }
